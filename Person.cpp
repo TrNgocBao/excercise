@@ -25,7 +25,7 @@ Person::Person(int id, int age, string firstName, string lastName,
 	setGender(gender);
 }
 
-int Person::id = 100; // vi la static, truy cap no thong qua ten lop
+int Person::id = 100;
 
 void Person::setID(int id) {
 	this->pId = (id >= 100) ? id : Person::id++;
@@ -34,7 +34,7 @@ void Person::setAge(int age) {
 	this->age = (age >= 0) ? age : 0; 
 }
 void Person::setFirstName(string firstName) {
-	this->firstName = firstName; // thuong dung this khi ten thuoc tinh va tham so giong nhau cho do lon
+	this->firstName = firstName;
 }
 void Person::setMidName(string midName) {
 	this->midName = midName;
