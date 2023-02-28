@@ -1,10 +1,3 @@
-// .h chi khai bao khong dinh nghia
-// .cpp dung de dinh nghia
-// 1. thiet lap thong tin cho 1 tp cu the, thong qua phuong thuc set()
-// ham set k can tra ve -> void
-// 2. lay thong tin ra, phuong thuc get()
-// 1&2 qui uoc tinh dong goi, chi ghi (set), chi doc (get)
-// moi thuoc tinh co 1 cap get set rieng
 #pragma once
 #include <string>
 using namespace std;
@@ -22,7 +15,7 @@ private:
 	string gender;
 public:
 	Person(); // ham tao mac dinh
-	Person(int, int, string, string, string, string, string, string); // k can ten tham so
+	Person(int, int, string, string, string, string, string, string);
 	
 	static int id; // dung chung
 	
@@ -30,7 +23,7 @@ public:
 	void setID(int);
 	int getAge();
 	void setAge(int);
-	string getFirstName(); //giu crtl cong ten phuong thuc se dan den dinh nghia
+	string getFirstName();
 	void setFirstName(string);
 	string getMidName();
 	void setMidName(string);
