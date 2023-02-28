@@ -15,11 +15,11 @@ void getPersonInfo(Person* ps, size_t n) {
 		cin.ignore();
 		getline(cin, mid);
 		cout << "Address: ";
-		getline(cin, addr); // chuoi co nhieu khoang trang
+		getline(cin, addr);
 		cout << "Gender: ";
 		cin >> gender;
 		cout << "Phone number: ";
-		cin >> phone; //chuoi lien hoac 1 chu
+		cin >> phone;
 		cout << "Age: ";
 		cin >> age;
 
