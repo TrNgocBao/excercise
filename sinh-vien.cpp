@@ -22,6 +22,8 @@ void printLine(int n);
 int docFile(sv a[], char fileName[]);
 int ghiFile(sv a[], int n, char fileName[]);
 int idLonNhat(sv a[], int id);
+void tinhDTB (sv &sv);
+void xepLoai (sv &sv);
 void nhapThongTin(sv& sv, int id);
 void nhapSV(sv a[], int id, int n);
 void capNhatThongTin(sv &sv);
@@ -46,7 +48,7 @@ int main() {
 
 	while (true) {
 		cout << "CHUONG TRINH QUAN LY SINH VIEN C/C++\n";
-		cout << "***********************MENU************************\n";
+		cout << "*************************MENU**************************\n";
 		cout << "**  1. Them sinh vien.                               **\n";
 		cout << "**  2. Cap nhat thong tin sinh vien boi ID.          **\n";
 		cout << "**  3. Xoa sinh vien boi ID.                         **\n";
@@ -330,5 +332,3 @@ void sapXepTheoTen(sv a[], int n){
         }
     }
 }
-
-
